@@ -7,7 +7,5 @@ var isPalindrome = function(s) {
     
     let t=s.split("").reverse().join("");
 
-    console.log(t);
-    console.log(s);
     return s==t;
 };
