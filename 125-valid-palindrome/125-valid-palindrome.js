@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-    s=s.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+    s=s.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
     
     //let t=s.split("").reverse().join("");
 
