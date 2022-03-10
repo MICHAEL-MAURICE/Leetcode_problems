@@ -3,7 +3,7 @@ public:
     double average(vector<int>& salary) {
        
         int total = 0;
-        int mi = numeric_limits<int>::max(), ma = numeric_limits<int>::min();
+        int mi = INT_MAX, ma = INT_MIN;
         
         cout<<mi<<"   "<<ma;
         for (const auto& s : salary) {
