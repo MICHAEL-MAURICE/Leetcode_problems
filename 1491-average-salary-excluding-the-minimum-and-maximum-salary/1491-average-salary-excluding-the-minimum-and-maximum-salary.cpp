@@ -4,6 +4,8 @@ public:
        
         int total = 0;
         int mi = numeric_limits<int>::max(), ma = numeric_limits<int>::min();
+        
+        cout<<mi<<"   "<<ma;
         for (const auto& s : salary) {
             total += s;
             mi = min(mi, s), ma = max(ma, s);
